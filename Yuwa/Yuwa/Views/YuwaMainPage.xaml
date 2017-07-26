@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Yuwa.Views.YuwaMainPage"
+             xmlns:layout="clr-namespace:Yuwa.Layout"
+             Title="YuwaMainPage">
+  <ScrollView>
+    <StackLayout Padding="10">
+            <layout:WrapLayout x:Name="WrapPanelFeatured" BackgroundColor="White" Orientation="HorizontalThenVertical"/>
+    </StackLayout>
+  </ScrollView>
+</ContentPage>

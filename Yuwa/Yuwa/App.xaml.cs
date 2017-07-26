@@ -21,6 +21,10 @@ namespace Yuwa
             {
                 Children =
                 {
+                    new NavigationPage(new YuwaMainPage())
+                    {
+                        Title= "Yuwa"
+                    },
                     new NavigationPage(new ItemsPage())
                     {
                         Title = "Browse",
@@ -30,7 +34,7 @@ namespace Yuwa
                     {
                         Title = "About",
                         Icon = Device.OnPlatform("tab_about.png",null,null)
-                    },
+                    }
                 }
             };
         }
